@@ -63,11 +63,10 @@
   src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
+  padding: 0;
+  margin: 0;
+}
+
   body {
     background-color: var(--color-stone-100); 
     color: var(--color-stone-600); 
@@ -83,8 +82,9 @@
   h2 {
     font-family: "Young Serif Regular";
     font-size: 1.75rem;
-    margin-bottom: 1.5rem;
-    color: var(--color-stone-600); 
+    margin-top: var(--space-400);
+    margin-bottom: var(--space-300);
+    color: var(--color-brown-800); 
     line-height: 100%;
     font-weight: normal;
   }
@@ -109,10 +109,9 @@
   .container {
     margin: auto;
     background-color: var(--color-white);
-    width: 51.11%;
+    width: 726px;
     border-radius: var(--space-300);
-    margin: 8rem auto;
-    padding: 2.5rem 0;
+    padding: var(--space-500) 0; 
   }
   
   .container img {
@@ -135,13 +134,8 @@
   
   .preparation {
     background-color: var(--color-rose-50);
+    padding: var(--space-300);
   }
-  
-  .ingredients {
-    padding: 2rem 0;
-    border-bottom: 1px solid var(--color-stone-150); 
-  }
-  
   .instructions {
     padding: 2rem 0;
     border-bottom: 1px solid var(--color-stone-150); 
@@ -178,15 +172,3 @@
     color: var(--color-brown-800); 
     
   }
-  
-  @media (width: 736px) {
-    .container {
-      width: 80.2%;
-    }
-  }
-  
-  @media (max-width: 430px) {
-    body {
-      background-color: var(--color-white);
-    }
-  } 
