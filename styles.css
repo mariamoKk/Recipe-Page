@@ -70,6 +70,11 @@
   body {
     background-color: var(--color-stone-100); 
     color: var(--color-stone-600); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0; 
   }
   
   h1 {
@@ -107,11 +112,12 @@
   
   
   .container {
-    margin: auto;
+  
     background-color: var(--color-white);
     width: 726px;
     border-radius: var(--space-300);
     padding: var(--space-500) 0; 
+    margin: var(--space-1600) 0;
   }
   
   .container img {
